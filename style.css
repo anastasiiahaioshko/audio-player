@@ -1,0 +1,53 @@
+body{
+  background: #f4a261;
+  font-family: 'Helvetica';
+}
+
+.track-name, .track-artist {
+  text-align: center;
+}
+.track-name{
+  font-size:140%; 
+}
+.track-artist{
+font-weight: 1000;
+
+}
+
+.audio-player {
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.controls {
+    margin-top: 10px;
+}
+
+.play-pause {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.volume {
+    width: 100px;
+    margin-left: 10px;
+}
+.track-art {
+  margin: 25px;
+  height: 250px;
+  width: 250px;
+  background-image: URL(
+     "https://i.ytimg.com/vi/mFR-XyCAgtQ/maxresdefault.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.details {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
